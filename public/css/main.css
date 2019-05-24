@@ -1,0 +1,89 @@
+:root {
+    --color1: rgba(163, 163, 128, 1);
+    --color2: rgba(45, 8, 10, 1);
+    --color3: rgba(124, 54, 38, 1);
+    --color4: rgba(255, 243, 176, 1);
+    --color5: rgba(224, 159, 62, 1);
+    --color5tr: rgba(224, 159, 62, 0.175);
+    --color6: rgba(255, 251, 230, 2);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: bisque;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--color5);
+}
+
+.page-item .page-link {
+    color: var(--color3);
+    background-color: var(--color4);
+    border-color: var(--color3);
+}
+
+.page-item .page-link:hover {
+    color: var(--color2);
+    background-color: var(--color5);
+    border-color: var(--color3);
+}
+
+.page-item.active .page-link {
+    color: var(--color4);
+    background-color: var(--color2);
+    border-color: var(--color3);
+}
+
+.page-item.disabled .page-link {
+    color: var(--color5);
+    pointer-events: none;
+    cursor: auto;
+    background-color: var(--color6);
+    border-color: var(--color2);
+}
+
+
+li a, a {
+    color: var(--color3);
+}
+
+li a:hover, a:hover {
+    color: var(--color2);
+}
+
+li a:visited, a:visited {
+    color: var(--color5);
+}
+
+footer a {
+    color: var(--color4);
+}
+
+footer a:hover {
+    color: var(--color5);
+}
+
+footer a:visited {
+    color: var(--color3);
+}
+
+div.card-footer a {
+    color: var(--color3);
+}
+
+div.card-footer a:hover {
+    color: var(--color2);
+}
+
+div.card-footer a:visited {
+    color: var(--color4);
+}
+
+li.list-group-item {
+    background-color: var(--color6);
+    border-color: var(--color5);
+}
+
+.card-header {
+    border-bottom: 0px;
+}
